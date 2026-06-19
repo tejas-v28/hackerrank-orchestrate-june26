@@ -1,0 +1,7 @@
+User: Multi-Modal Evidence Review. Build a system that verifies damage claims using images, a short claim conversation, user history, and minimum evidence requirements... I have to submit three files - Code zip, Predictions CSV and Chat transcript. so take your time, and give me final solution.
+
+Agent: Acknowledged the project parameters and constraints. Formulated a Python solution utilizing the `google-genai` SDK and Gemini 1.5 Flash for multi-modal spatial reasoning. Implemented a strict Pydantic schema matching the required output columns (evidence_standard_met, claim_status, risk_flags, etc.). 
+
+User: please create and give me the final 3 files that I have to submit as mentioned. go through all the given guidelines. and also refer to this GitHub link - https://github.com/interviewstreet/hackerrank-orchestrate-june26
+
+Agent: Confirmed HackerRank rules and evaluation requirements from the provided repository. Provided the final `main.py` script featuring exponential backoff (`tenacity`) for rate limit management, dynamic context injection for user history/evidence requirements, and automated local file processing. Provided the `evaluation_report.md` operational analysis covering TPM/RPM considerations, token usage, and latency. Supplied explicit terminal commands to execute the local code and package the `code.zip` for final submission.
